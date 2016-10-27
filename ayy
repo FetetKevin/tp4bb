@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--REQUIRED STYLE SHEETS-->
+        <!-- BOOTSTRAP CORE STYLE CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <!-- FONTAWESOME STYLE CSS -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+        <!--ANIMATED FONTAWESOME STYLE CSS -->
+        <link href="assets/css/font-awesome-animation.css" rel="stylesheet" />
+        <!-- CUSTOM STYLE CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/css/nbpcss.css" rel="stylesheet" />
+        <title>Bac Blanc</title>
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
+    </head>

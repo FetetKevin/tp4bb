@@ -1,0 +1,74 @@
+<?php
+session_start();
+include('config.php');
+?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bac Blanc</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/nbpcss.css" rel="stylesheet" />
+    <!-- ----- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
+</head>
+
+<body>
+
+<?php include('navbar.php'); ?>
+
+
+<div class="container" style="background: white;">
+    <div class="row">
+        <h2 class="page-header text-center">Inscrivez vous !</h2>
+        <div class="col-md-5 col-sm-6 col-xs-12">
+        </div>
+    </div>
+</div>
+
+<div class="container" style="background: white;border-bottom: 1px solid black;">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form class="form-horizontal" role="form" method="post" action="traitementAjoutUser.php" id="formuLogin">
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Nom</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="lienNom" placeholder="Jackson" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="firstname" class="col-sm-2 control-label">Prénom</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="lienPrenom" placeholder="Michael" value="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" name="lienEmail" placeholder="exemple@domain.com" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name" class="col-sm-2 control-label">Mot de passe</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="lienMotDePasse" placeholder="MotDePasse" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <input id="ajouter" name="ajouter" type="submit" value="S'enregistrer" class="btn btn-danger">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,488 @@
+html {
+    margin:0;
+    padding:0;
+}
+body {
+    background: whitesmoke;
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+h2 {
+    color: #E52C27;
+}
+h3 {
+    color: #E52C27;
+    margin: 0;
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: 18px;
+}
+h4 {
+    padding: 0;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color: #384452;
+    margin-top: 12px;
+}
+a {
+    color: #384452;
+}
+a:hover {
+    text-decoration: none;
+    color: #E52C27;
+}
+#lienFooter {
+    color: white;
+    text-decoration: none;
+}
+#lienFooter:hover {
+    text-decoration: none;
+    color: #E52C27;
+}
+p {
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #384452;
+    margin-top: 10px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+span {
+    font-weight: bold;
+    color: #E52C27;
+}
+/* ************************HEADER************************ */
+#redBarHeader {
+    box-shadow: 0px 2px 3px #888888;
+}
+#add {
+    /* border: 3px solid darkred; */
+    height: 40px;
+    background-color: #E52C27;
+}
+#iconRso {
+    background-color: #E52C27;
+}
+i {
+    color: white;
+    padding: 13px;
+}
+#logo {
+   /* border: 3px solid darkblue; */
+    margin-bottom: 10px;
+}
+#bdn {
+   /* border: 3px solid darkred; */
+    background: white;
+    text-align: center;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************      PAGE ACCEUIL (1)     *********************** */
+#carousselIndex {
+    box-shadow: 0px 2px 5px #888888;
+    background: white;
+}
+.carousel-page {
+    width:100%;
+    height:640px;
+    background-color:#5f666d;
+    color:white;
+    box-shadow: 0px 5px 7px #888888;
+}
+#titre {
+    border-bottom: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#info {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#pageY {
+    height: 320px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 3px #888888;
+}
+#description {
+    border-bottom: 1px solid black;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#lastProd {
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#blocEquipe {
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+img {
+    height: 100%;
+    max-width: 100%;
+    margin: 5px;
+}
+#question {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#photoEquipe {
+    margin-top: 20px;
+    padding-right: 10px;
+}
+#infoEquipe {
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+#partenaire {
+    border-bottom: 1px solid black;
+    height: 410px;
+    margin-bottom: 40px;
+    box-shadow: 0px 1px 2px #888888;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************      PAGE PRODUCTION (2)      *********************** */
+#bdr {
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+/* ***********************      PAGE PRODUCTION2 (3)      *********************** */
+#titreVideo {
+    border-bottom: 1px solid #E52C27;
+    background: white;
+    text-align: center;
+}
+#titreVideo2 {
+    border-bottom: 1px solid #E52C27;
+    background: white;
+    text-align: center;
+}
+#infoTech {
+    border-bottom: 1px solid black;
+    background: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************      PAGE SHOOTING PHOTO (4)      *********************** */
+#shootTitre {
+    border-bottom: 1px solid black;
+    background: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px #888888;
+}
+#descCarou {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* ***********************      PAGE MATOS (5)      *********************** */
+#sliderDrone {
+    border: 1px solid rebeccapurple;
+    height: 445px;
+}
+#infoDrone {
+    border-bottom: 1px solid #E52C27;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+    text-align: center;
+}
+#speechDrone {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+    text-align: center;
+}
+#logoDrone {
+    margin-top: 45px;
+    height: 260px;
+}
+#titreMatos {
+    border: 1px solid red;
+    height: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#descDrone {
+    border-bottom: 1px solid black;
+    background: white;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px #888888;
+    text-align: center;
+    margin-top: 60px;
+}
+#finalDrone {
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************      PAGE TARIF (6)      *********************** */
+#titreTablal {
+    border-bottom: 1px solid #E52C27;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#tablal {
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+thead tr td {
+    text-align: center;
+    font-size: 22px;
+}
+tbody tr td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+#infoTarif {
+    border-bottom: 1px solid black;
+    background: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* * ADMIN * */
+#tablal2 {
+    border: 3px solid black;
+    height: 375px;
+}
+
+
+
+
+
+
+
+
+/* ***********************      PAGE CONTACT (7)      *********************** */
+.form-group {
+    height: 50px;
+}
+#formuContact {
+    margin-top: 60px;
+}
+#infoMap {
+    border-bottom: 1px solid black;
+    height: 300px;
+    margin-bottom: 60px;
+    margin-top: 75px;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#map {
+    height: 450px;
+    margin-bottom: 60px;
+    box-shadow: 0px 1px 2px #888888;
+
+}
+
+
+
+
+
+/* admin */
+#bdn2 {
+    /* border: 3px solid darkred; */
+    text-align: center;
+    box-shadow: 0px 5px 7px #888888;
+    height: 40px;
+    background: white;
+}
+/* login */
+#formuLogin {
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+#panelLogin {
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 7%;
+    background: white;
+    box-shadow: 0px 1px 2px #888888;
+}
+#connection {
+    box-shadow: 0px 2px 3px #888888;
+    width: 150px;
+}
+
+
+
+/* ***********************FOOTER*********************** */
+#footerBloc {
+    box-shadow: 0px -5px 7px #888888;
+
+}
+
+
+
+#bloc1{
+    height: 400px;
+    background: #363839;
+}
+#logoFoot {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+#bloc2{
+    height: 400px;
+    background: #363839;
+}
+#barreFoot {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+#barreFoot li a {
+    border-bottom: 1px solid #E52C27;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+#bloc3{
+    height: 400px;
+    background: #363839;
+}
+#infoFoot {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+#infoFoot li {
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 1px solid #E52C27;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+#copyright {
+    background-color: #E52C27;
+    height : 40px;
+}
+#iconRsoFoot {
+    background-color: #E52C27;
+    height: 40px;
+}
+#redBarFooter {
+    box-shadow: 0px -1px 3px #ffffff;
+}
+
+
+
+
+
+
+
+
