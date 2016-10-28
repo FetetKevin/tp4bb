@@ -28,6 +28,12 @@ else {
 
 <?php include('navbar.php'); ?>
 
+<br>
+<br>
+
+<?php include('formuAjoutRole.php'); ?>
+
+
 <?php include('adminAddAdmin.php'); ?>
 
 <br>
