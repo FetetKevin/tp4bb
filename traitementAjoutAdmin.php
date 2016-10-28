@@ -9,8 +9,12 @@ if (!empty($_POST) && isset($_POST['lienNom']) && isset($_POST['lienPrenom']) &&
     $lienEmail = $_POST['lienEmail'];
     $lienMotDePasse = $_POST['lienMotDePasse'];
 
-
-    $sql = "INSERT INTO `users`(`nom`, `prenom`, `email`, `motDePasse`, `roles_id_role`) VALUES ('" . $lienNom . "','" . $lienPrenom . "','" . $lienEmail . "','" . $lienMotDePasse . "', '1')";
+foreach ($_POST['role'] as $valeur) {
+    $sql = "INSERT INTO `users`(`nom`, `prenom`, `email`, `motDePasse`, `roles_id_role`) VALUES ('" . $lienNom . "','" . $lienPrenom . "','" . $lienEmail . "','" . $lienMotDePasse . "','" . $valeur . "')";
+}
+    if (!$_POST['role']) {
+        echo "Aucune checkbox n'a été cochée";
+    }
 
 }
 

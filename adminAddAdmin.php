@@ -34,6 +34,22 @@
                         <input type="text" class="form-control" name="lienMotDePasse" placeholder="MotDePasse" value="">
                     </div>
                 </div>
+                <div class="col-md-6 col-md-offset-2">
+                    <?php
+                    $sql= "SELECT * FROM roles";
+                    $req = $link->query($sql);
+
+                    // on envoie la requête
+                    while ($row = mysqli_fetch_object($req)) {
+                        ?>
+                        <label class="btn btn-danger checked">
+                            <input type="radio" name="role[]" value="<?= $row->id_role;?>"> <?= $row->nom_role;?>
+                        </label>
+                        <?php
+                    }
+                    ?>
+                </div>
+
                 <div class="form-group">
                     <div class="col-sm-10 col-sm-offset-2">
                         <input id="ajouter" name="ajouter" type="submit" value="S'enregistrer" class="btn btn-danger">
