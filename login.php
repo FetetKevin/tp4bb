@@ -87,7 +87,7 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Mot de passe</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" name="pass" placeholder="Mot de passe" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
+                            <input type="password" class="form-control" name="pass" placeholder="Mot de passe" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
                         </div>
                     </div>
                     <div class="form-group">

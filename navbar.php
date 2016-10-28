@@ -29,7 +29,7 @@
                     echo '<li ><a href = "admin.php" > Espace Admin </a ></li >';
                 }
                 ?>
-                <li><a href="ajoutUser.php"><span class="glyphicon glyphicon-user"></span> Inscription</a></li>
+                <li><a href="formuAjoutUser.php"><span class="glyphicon glyphicon-user"></span> Inscription</a></li>
                 <?php
 
                 if ($_SESSION['logged']) {

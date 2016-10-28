@@ -1,7 +1,7 @@
 <div class="container" style="background: white;border-bottom: 1px solid black;">
     <div class="row">
         <h2 class="page-header text-center">Formulaire pour ajouter une nouvelle video !</h2>
-        <form class="form-horizontal" role="form" method="post" action="ajoutVideo.php">
+        <form class="form-horizontal" role="form" method="post" action="traitementAjoutVideo.php">
             <div class="form-group">
                 <label class="col-sm-2 control-label">URL</label>
                 <div class="col-md-4">
@@ -14,13 +14,6 @@
                     <input type="text" class="form-control" name="lienTitre" placeholder="Entrez le titre de la video" value="">
                 </div>
             </div>
-             <!--<div class="form-group">
-                <label class="col-sm-2 control-label">DATE</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control" name="lienDate" placeholder="Entrez la date de creation de la video" value="">
-                </div>
-            </div>-->
-
 
             <!-- SEPARATEUR -->
             <div class="row">

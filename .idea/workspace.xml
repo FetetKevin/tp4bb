@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f052a344-51c2-413f-b907-11cc73cd029a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/formuDeleteCategorie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/formuDeleteRole.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/traitementDeleteCategorie.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/traitementDeleteRole.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ajoutUser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ajoutVideo.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formuAjoutCategorie.php" afterPath="$PROJECT_DIR$/formuAjoutCategorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formuAjoutVideo.php" afterPath="$PROJECT_DIR$/formuAjoutVideo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navbar.php" afterPath="$PROJECT_DIR$/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traitementAjoutCategorie.php" afterPath="$PROJECT_DIR$/traitementAjoutCategorie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traitementAjoutUser.php" afterPath="$PROJECT_DIR$/traitementAjoutUser.php" />
     </list>
     <ignored path="TP4Bac Blanc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,22 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="formuDeleteCategorie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formuDeleteCategorie.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formuDeleteRole.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/formuDeleteRole.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+              <folding>
+                <marker date="1477662894960" expanded="true" signature="389:651" ph="SELECT `id_u... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,14 +58,9 @@
         <option value="$PROJECT_DIR$/ajoutUser.php" />
         <option value="$PROJECT_DIR$/../NuitBlancheProduction/ZoneAdmin/formuAjoutVideo.php" />
         <option value="$PROJECT_DIR$/../NuitBlancheProduction/production.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/navbar.php" />
-        <option value="$PROJECT_DIR$/traitementAjoutUser.php" />
         <option value="$USER_HOME$/Desktop/tri_categorie.php" />
-        <option value="$PROJECT_DIR$/formuAjoutVideo.php" />
         <option value="$PROJECT_DIR$/sortbar.php" />
         <option value="$PROJECT_DIR$/../ayylmao/config.php" />
-        <option value="$PROJECT_DIR$/ajoutVideo.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/traitementAjoutAdmin.php" />
         <option value="$PROJECT_DIR$/adminAddAdmin.php" />
@@ -81,13 +68,19 @@
         <option value="$PROJECT_DIR$/formuAjoutRole.php" />
         <option value="$PROJECT_DIR$/traitementAjoutRole.php" />
         <option value="$PROJECT_DIR$/formuAjoutAdmin.php" />
-        <option value="$PROJECT_DIR$/formuAjoutCategorie.php" />
-        <option value="$PROJECT_DIR$/traitementAjoutCategorie.php" />
         <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/traitementDeleteCategorie.php" />
         <option value="$PROJECT_DIR$/traitementDeleteRole.php" />
         <option value="$PROJECT_DIR$/formuDeleteCategorie.php" />
         <option value="$PROJECT_DIR$/formuDeleteRole.php" />
+        <option value="$PROJECT_DIR$/ajoutVideo.php" />
+        <option value="$PROJECT_DIR$/traitementAjoutCategorie.php" />
+        <option value="$PROJECT_DIR$/formuAjoutCategorie.php" />
+        <option value="$PROJECT_DIR$/navbar.php" />
+        <option value="$PROJECT_DIR$/formuAjoutVideo.php" />
+        <option value="$PROJECT_DIR$/traitementAjoutUser.php" />
+        <option value="$PROJECT_DIR$/formuAjoutUser.php" />
+        <option value="$PROJECT_DIR$/login.php" />
       </list>
     </option>
   </component>
@@ -117,7 +110,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -130,7 +123,30 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacBlanc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacBlanc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacBlanc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -224,18 +240,19 @@
       <workItem from="1477568422696" duration="4699000" />
       <workItem from="1477574433890" duration="93000" />
       <workItem from="1477578566585" duration="1495000" />
-      <workItem from="1477636827564" duration="6893000" />
+      <workItem from="1477636827564" duration="9255000" />
+      <workItem from="1477655117011" duration="5891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73066000" />
+    <option name="totallyTimeSpent" value="81319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11459968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06907378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -291,20 +308,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../NuitBlancheProduction/production.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NuitBlancheProduction/page/production/triProduction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -402,110 +405,19 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/tri_categorie.php" />
-    <entry file="file://$PROJECT_DIR$/sortbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ayylmao/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ayylmao/config.php" />
     <entry file="file://$PROJECT_DIR$/deco.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <marker date="1477550999492" expanded="true" signature="389:651" ph="SELECT `id_u... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ayylmao/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="69" column="5" selection-start-line="65" selection-start-column="4" selection-end-line="69" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitementAjoutUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <marker date="1477551958650" expanded="true" signature="524:702" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formuAjoutVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="53" column="0" selection-start-line="38" selection-start-column="12" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <marker date="1477568873750" expanded="true" signature="1954:1978" ph="SELECT * FRO... categories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajoutVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1477573280016" expanded="true" signature="666:770" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:788" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:789" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:790" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:809" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:810" ph="INSERT INTO `videos`... " />
-            <marker date="1477573280016" expanded="true" signature="666:819" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:820" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:842" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:843" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:858" ph="INSERT INTO `video`... " />
-            <marker date="1477573280016" expanded="true" signature="666:861" ph="INSERT INTO `video`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ayylmao/index.php" />
     <entry file="file://$PROJECT_DIR$/../exo_php/traitement/add_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="82" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="82" />
-          <folding>
-            <marker date="1475757765800" expanded="true" signature="569:752" ph="INSERT INTO `user`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,53 +425,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="77" column="25" selection-start-line="70" selection-start-column="16" selection-end-line="77" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajoutRole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajoutUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitementAjoutAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <marker date="1477639522373" expanded="true" signature="537:683" ph="INSERT INTO `users`... " />
-            <marker date="1477639522373" expanded="true" signature="537:728" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminAddAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ajoutRole.php" />
+    <entry file="file://$PROJECT_DIR$/adminAddAdmin.php" />
     <entry file="file://$PROJECT_DIR$/formuAjoutAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1477642803585" expanded="true" signature="1964:1983" ph="SELECT * FRO... roles" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,9 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,64 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1474033665269" expanded="true" signature="215:277" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitementAjoutCategorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1477643969831" expanded="true" signature="280:351" ph="INSERT INTO `categories`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-          <folding>
-            <marker date="1477638903206" expanded="true" signature="1492:1589" ph="SELECT * FRO... videos" />
-            <marker date="1477638903206" expanded="true" signature="2594:2633" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="2675:2816" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="2704:2743" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="2704:2816" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="2762:2816" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="3065:3186" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="3320:3522" ph="..." />
-            <marker date="1477638903206" expanded="true" signature="3397:3435" ph="SELECT * FRO... videos" />
-            <marker date="1477638903206" expanded="true" signature="3760:3781" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formuAjoutCategorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traitementDeleteCategorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <marker date="1477644335477" expanded="true" signature="330:389" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,19 +486,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formuDeleteCategorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/formuDeleteRole.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formuDeleteCategorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="5" selection-start-column="20" selection-end-line="7" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1477569306322" expanded="true" signature="1482:1506" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementDeleteCategorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <marker date="1477644335477" expanded="true" signature="330:389" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementAjoutCategorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="164" selection-start-line="29" selection-start-column="164" selection-end-line="29" selection-end-column="164" />
+          <folding>
+            <marker date="1477659386620" expanded="true" signature="300:371" ph="INSERT INTO `categories`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementAjoutAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <marker date="1477639522373" expanded="true" signature="537:683" ph="INSERT INTO `users`... " />
+            <marker date="1477639522373" expanded="true" signature="537:728" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formuAjoutCategorie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajoutUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="70" column="6" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajoutVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <marker date="1477638903206" expanded="true" signature="1492:1589" ph="SELECT * FRO... videos" />
+            <marker date="1477638903206" expanded="true" signature="3397:3435" ph="SELECT * FRO... videos" />
+            <marker date="1477638903206" expanded="true" signature="3760:3781" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formuAjoutVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <marker date="1477662602709" expanded="true" signature="1631:1655" ph="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formuAjoutUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementAjoutVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1477658068022" expanded="true" signature="575:770" ph="INSERT INTO `videos`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitementAjoutUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <marker date="1477662671515" expanded="true" signature="548:726" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="89" column="49" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+          <folding>
+            <marker date="1477662894960" expanded="true" signature="389:651" ph="SELECT `id_u... users" />
+          </folding>
         </state>
       </provider>
     </entry>

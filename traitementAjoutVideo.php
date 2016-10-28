@@ -4,10 +4,9 @@
 include('config.php');
 
 
-if (!empty($_POST) && isset($_POST['lienUrl']) && isset($_POST['lienTitre'])/** && isset($_POST['lienDate'])**/ && isset($_POST['description'])) {
+if (!empty($_POST) && isset($_POST['lienUrl']) && isset($_POST['lienTitre']) && isset($_POST['description'])) {
     $lienUrl = htmlspecialchars($_POST['lienUrl']);
     $lienTitre = htmlspecialchars($_POST['lienTitre']);
-    //$lienDate = htmlspecialchars($_POST['lienDate']);
     $description = htmlspecialchars($_POST['description']);
 
     foreach ($_POST['categorie'] as $valeur) {

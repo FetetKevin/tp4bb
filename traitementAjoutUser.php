@@ -4,8 +4,8 @@
 include('config.php');
 
 if (!empty($_POST) && isset($_POST['lienNom']) && isset($_POST['lienPrenom']) && isset($_POST['lienEmail']) && isset($_POST['lienMotDePasse'])) {
-    $lienNom = $_POST['lienNom'];
-    $lienPrenom = $_POST['lienPrenom'];
+    $lienNom = addslashes($_POST['lienNom']);
+    $lienPrenom = addslashes($_POST['lienPrenom']);
     $lienEmail = $_POST['lienEmail'];
     $lienMotDePasse = $_POST['lienMotDePasse'];
 
@@ -17,10 +17,12 @@ if (!empty($_POST) && isset($_POST['lienNom']) && isset($_POST['lienPrenom']) &&
 
 if (mysqli_query($link, $sql)) {
     echo '<center><p class=\'text-danger\'>Ajout effectué :)</p></center>';
+    header('Location: index.php?userajoute');
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($link);
+    header('Location: index.php?usererror');
 }
-header('Location: index.php');
+
 
 mysqli_close($link);
 
