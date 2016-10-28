@@ -32,6 +32,7 @@ else {
 <br>
 
 <?php include('formuAjoutRole.php'); ?>
+<?php include('formuDeleteRole.php'); ?>
 
 <br>
 <br>
@@ -42,6 +43,7 @@ else {
 <br>
 
 <?php include('formuAjoutCategorie.php'); ?>
+<?php include('formuDeleteCategorie.php'); ?>
 
 <br>
 <br>

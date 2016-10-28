@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="col-sm-10 col-sm-offset-2">
+                    <div class="col-md-1 col-md-offset-2">
                         <input id="ajouter" name="ajouter" type="submit" value="Ajouter" class="btn btn-danger">
                     </div>
                 </div>

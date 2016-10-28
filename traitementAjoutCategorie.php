@@ -15,10 +15,12 @@ if (!empty($_POST) && isset($_POST['categorie'])) {
 
 if (mysqli_query($link, $req)) {
     echo '<center><p class=\'text-danger\'>Ajout effectué :)</p></center>';
+    header('Location: admin.php?catajoutee');
 } else {
     echo "Error: " . $req . "<br>" . mysqli_error($link);
+    header('Location: admin.php?error');
 }
-header('Location: admin.php?catajoutee');
+
 
 mysqli_close($link);
 
