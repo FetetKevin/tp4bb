@@ -3,11 +3,11 @@
 
 include('config.php');
 
-if (!empty($_POST) && isset($_POST['role'])) {
-    $role = $_POST['role'];
+if (!empty($_POST) && isset($_POST['categorie'])) {
+    $categorie = $_POST['categorie'];
 
 
-    $req = "INSERT INTO `roles`(`nom_role`) VALUES ('" . $role . "')";
+    $req = "INSERT INTO `categories`(`nom_categorie`) VALUES ('" . $categorie . "')";
 
 
 }
@@ -18,7 +18,7 @@ if (mysqli_query($link, $req)) {
 } else {
     echo "Error: " . $req . "<br>" . mysqli_error($link);
 }
-header('Location: admin.php?roleajoute');
+header('Location: admin.php?catajoutee');
 
 mysqli_close($link);
 

@@ -33,8 +33,15 @@ else {
 
 <?php include('formuAjoutRole.php'); ?>
 
+<br>
+<br>
 
-<?php include('adminAddAdmin.php'); ?>
+<?php include('formuAjoutAdmin.php'); ?>
+
+<br>
+<br>
+
+<?php include('formuAjoutCategorie.php'); ?>
 
 <br>
 <br>

@@ -1,6 +1,6 @@
 <div class="container" style="background: white;">
     <div class="row">
-        <h2 class="page-header text-center">Ajoutez un admin !</h2>
+        <h2 class="page-header text-center">Ajoutez un Utilisateur !</h2>
         <div class="col-md-5 col-sm-6 col-xs-12">
         </div>
     </div>
