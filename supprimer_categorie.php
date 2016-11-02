@@ -6,11 +6,11 @@
 $link = mysqli_connect('127.0.0.1','knab','knab','tp4bb');
 
 
-if(isset($_GET['id_role'])&&!empty($_GET['id_role'])){
+if(isset($_GET['id_categorie'])&&!empty($_GET['id_categorie'])){
 
-    $id_role = $_GET['id_role'];
+    $id_role = $_GET['id_categorie'];
 }
-$supprimer= "DELETE FROM roles WHERE id_role = $id_role";
+$supprimer= "DELETE FROM categories WHERE id_categorie = $id_categorie";
 
 if(mysqli_query($link,$supprimer)){
 
@@ -23,5 +23,3 @@ if(mysqli_query($link,$supprimer)){
 }
 
 ?>
-
-

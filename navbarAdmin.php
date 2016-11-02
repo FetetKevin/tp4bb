@@ -3,7 +3,8 @@
             <nav role="navigation" class="navbar navbar-default">
                 <!-- Pour un affichage sur les mobiles -->
                 <div class="navbar-header">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <button type="button" data-target="#navbarCollapse2"
+                            data-toggle="collapse" class="navbar-toggle">
                         <span class="sr-only"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -13,7 +14,7 @@
                     <a href="admin.php" class="navbar-brand">Admin</a>
                 </div>
                 <!-- Collection de liens de navigatioon -->
-                <div id="navbarCollapse" class="collapse navbar-collapse">
+                <div id="navbarCollapse2" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="formuAjoutRole.php">Formu ajout Role</a></li>
                         <li><a href="formuAjoutAdmin.php">Formu ajout Admin</a></li>
