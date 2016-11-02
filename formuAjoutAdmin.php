@@ -92,5 +92,8 @@ else {
         </div>
     </div>
 </div>
+
+
+<?php include('listUsers.php'); ?>
 </body>
 </html>

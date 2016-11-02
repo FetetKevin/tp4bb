@@ -55,8 +55,8 @@ $start_from = ($page-1) * $per_page;
     <?php
 	//RECUPERE videos + categories
     $TableVideos = "SELECT * FROM videos 
-	LEFT JOIN categories ON 
-	videos.categorie_video = categories.id_categorie";
+	LEFT JOIN categories 
+	ON videos.categorie_video = categories.id_categorie";
 	//SI IL Y A UNE CATEGORIE
 	if(isset($categorie)){
 		$TableVideos.= " WHERE categories.nom_categorie = '$categorie' ";
