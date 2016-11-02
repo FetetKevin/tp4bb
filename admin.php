@@ -27,31 +27,12 @@ else {
 <body>
 
 <?php include('navbar.php'); ?>
+<?php include('navbarAdmin.php'); ?>
 
 <br>
 <br>
 
-<?php include('formuAjoutRole.php'); ?>
-<?php include('formuDeleteRole.php'); ?>
-
-<br>
-<br>
-
-<?php include('formuAjoutAdmin.php'); ?>
-
-<br>
-<br>
-
-<?php include('formuAjoutCategorie.php'); ?>
-<?php include('formuDeleteCategorie.php'); ?>
-
-<br>
-<br>
-
-<?php include('formuAjoutVideo.php'); ?>
-
-
-
+<h1>BIENVENU DANS L'ADMIN AYY LMAO</h1>
 
 </body>
 </html>

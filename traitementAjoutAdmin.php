@@ -20,11 +20,12 @@ foreach ($_POST['role'] as $valeur) {
 
 
 if (mysqli_query($link, $sql)) {
-    echo '<center><p class=\'text-danger\'>Ajout effectué :)</p></center>';
+    header('Location: formuAjoutAdmin.php?Useradded');
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($link);
+    header('Location: formuAjoutAdmin.php?Usererror');
 }
-//header('Location: index.php');
+
 
 mysqli_close($link);
 
