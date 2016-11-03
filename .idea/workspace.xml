@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f052a344-51c2-413f-b907-11cc73cd029a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/listCategories.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/supprimer_categorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formuAjoutCategorie.php" afterPath="$PROJECT_DIR$/formuAjoutCategorie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formuAjoutRole.php" afterPath="$PROJECT_DIR$/formuAjoutRole.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listRoles.php" afterPath="$PROJECT_DIR$/listRoles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navbarAdmin.php" afterPath="$PROJECT_DIR$/navbarAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supprimer_role.php" afterPath="$PROJECT_DIR$/supprimer_role.php" />
-    </list>
+    <list default="true" id="f052a344-51c2-413f-b907-11cc73cd029a" name="Default" comment="" />
     <ignored path="TP4Bac Blanc.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -309,12 +300,12 @@
       <workItem from="1477679631753" duration="186000" />
       <workItem from="1478074008350" duration="7002000" />
       <workItem from="1478090979433" duration="9585000" />
-      <workItem from="1478103483886" duration="2734000" />
+      <workItem from="1478103483886" duration="3062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101425000" />
+    <option name="totallyTimeSpent" value="101753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="246" y="0" width="1127" height="775" extended-state="0" />
