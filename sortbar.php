@@ -16,7 +16,15 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-center">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Trier la liste <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <?php
+                                if(isset($_POST) && empty($_GET['act'])){
+                                    echo "Trier la liste";
+                                }else{
+                                    echo $_GET['act'];
+                                }
+                                ?>
+                                <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="index.php">Tous</a></li>
                                 <li role="separator" class="divider"></li>
@@ -26,9 +34,9 @@
 
                                 // on envoie la requête
                                 while ($row = mysqli_fetch_object($req)) {
-                                ?>
-                                <li><a href="index.php?act=<?= $row->nom_categorie; ?>"><?= $row->nom_categorie; ?></a></li>
-                                <li role="separator" class="divider"></li>
+                                    ?>
+                                    <li><a href="index.php?act=<?= $row->nom_categorie; ?>"><?= $row->nom_categorie; ?></a></li>
+                                    <li role="separator" class="divider"></li>
                                     <?php
                                 }
                                 ?>

@@ -9,7 +9,7 @@ include('config.php');
 	else {
 		$page=1;
 	}
-	var_dump($page);
+	//var_dump($page);
 // COMMENCE DE 0  MUTLIPLI PAR : PER PAGE
 $start_from = ($page-1) * $per_page;
 
@@ -41,6 +41,8 @@ $start_from = ($page-1) * $per_page;
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
 	<!-- JS : TRIER LES VIDEOS -->
     <script type="text/javascript" src="assets/js/tri_page_videos.js"></script>
+    <script src="assets/js/placeholderTypewriter.js"></script>
+
 </head>
 
     <body>
@@ -124,6 +126,7 @@ $start_from = ($page-1) * $per_page;
         ?>
     </div><!-- FIN PAGINATION -->
 
+    <script src="dynamicplaceholder.js"></script>
 
     </body>
 </html>

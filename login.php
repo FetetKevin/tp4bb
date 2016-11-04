@@ -62,45 +62,52 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
 
 
 
+<!-- Large modal -->
 
-<section>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-8 col-xs-12 col-md-offset-2" id="panelLogin">
-                <h4><span>Connectez-vous !</span></h4>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8 col-xs-12 col-md-offset-2" id="panelLogin">
+                        <h4><span>Connectez-vous !</span></h4>
+                    </div>
+                </div>
             </div>
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form class="form-horizontal" role="form" method="post" action="login.php" id="formuLogin">
+                            <div class="form-group">
+                                <label for="email" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" name="login" id="email3" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 control-label">Mot de passe</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="pass" id="mdp3" value="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <input id="connection" name="connection" type="submit" value="Connexion" class="btn btn-danger">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
     </div>
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <form class="form-horizontal" role="form" method="post" action="login.php" id="formuLogin">
-                    <div class="form-group">
-                        <label for="email" class="col-sm-2 control-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" name="login" id="email3" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="name" class="col-sm-2 control-label">Mot de passe</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" name="pass" id="mdp3" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                            <input id="connection" name="connection" type="submit" value="Connexion" class="btn btn-danger">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+</div>
 
 <script src="dynamicplaceholder.js"></script>
 

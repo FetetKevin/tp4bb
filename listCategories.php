@@ -15,6 +15,7 @@ $tableHeading =array('id_categorie',
     'nom_categorie');
 // Ajouter le champ supprimer dans l'entete du tableau
 $tableHeading[]='supprimer';
+$tableHeading[]='modifier';
 
 echo "<div class='container'>";
 
