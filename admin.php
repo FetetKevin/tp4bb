@@ -33,6 +33,7 @@ else {
 <br>
 
 <h1>BIENVENU DANS L'ADMIN AYY LMAO</h1>
+<center><h2>Cette page est strictement reservée aux Admins !</h2></center>
 
 </body>
 </html>

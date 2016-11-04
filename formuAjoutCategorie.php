@@ -23,6 +23,7 @@ else {
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
     <!-- JS : TRIER LES VIDEOS -->
     <script type="text/javascript" src="assets/js/tri_page_videos.js"></script>
+    <script src="assets/js/placeholderTypewriter.js"></script>
 </head>
 
 <body>
@@ -43,7 +44,7 @@ else {
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Nouvelle categorie</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="categorie" placeholder="rap/rock/electro/reggea" value="">
+                        <input type="text" class="form-control" name="categorie" id="cat" value="">
                     </div>
                 </div>
 
@@ -59,5 +60,7 @@ else {
 
 
 <?php include('listCategories.php'); ?>
+<script src="dynamicplaceholder.js"></script>
+
 </body>
 </html>

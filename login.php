@@ -52,6 +52,7 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
+    <script src="assets/js/placeholderTypewriter.js"></script>
 </head>
 
 
@@ -81,13 +82,13 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
                     <div class="form-group">
                         <label for="email" class="col-sm-2 control-label">Email</label>
                         <div class="col-sm-10">
-                            <input type="email" class="form-control" name="login" placeholder="exemple@domain.com" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
+                            <input type="email" class="form-control" name="login" id="email3" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Mot de passe</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control" name="pass" placeholder="Mot de passe" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
+                            <input type="password" class="form-control" name="pass" id="mdp3" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
                         </div>
                     </div>
                     <div class="form-group">
@@ -101,6 +102,7 @@ if (isset($_POST) && (!empty($_POST['login'])) && (!empty($_POST['pass'])) ) {
     </div>
 </section>
 
+<script src="dynamicplaceholder.js"></script>
 
 </body>
 </html>

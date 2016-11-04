@@ -23,6 +23,7 @@ else {
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
     <!-- JS : TRIER LES VIDEOS -->
     <script type="text/javascript" src="assets/js/tri_page_videos.js"></script>
+    <script src="assets/js/placeholderTypewriter.js"></script>
 </head>
 
 <body>
@@ -44,25 +45,25 @@ else {
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Nom</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienNom" placeholder="Jackson" value="">
+                        <input type="text" class="form-control" name="lienNom" id="nom" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="firstname" class="col-sm-2 control-label">Prénom</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienPrenom" placeholder="Michael" value="">
+                        <input type="text" class="form-control" name="lienPrenom" id="prenom" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" name="lienEmail" placeholder="exemple@domain.com" value="">
+                        <input type="email" class="form-control" name="lienEmail" id="email" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Mot de passe</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienMotDePasse" placeholder="MotDePasse" value="">
+                        <input type="text" class="form-control" name="lienMotDePasse" id="mdp" value="">
                     </div>
                 </div>
                 <div class="col-md-6 col-md-offset-2">
@@ -95,5 +96,7 @@ else {
 
 
 <?php include('listUsers.php'); ?>
+<script src="dynamicplaceholder.js"></script>
+
 </body>
 </html>

@@ -17,6 +17,7 @@ include('config.php');
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
+    <script src="assets/js/placeholderTypewriter.js"></script>
 </head>
 
 <body>
@@ -39,25 +40,25 @@ include('config.php');
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Nom</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienNom" placeholder="Jackson" value="">
+                        <input type="text" class="form-control" name="lienNom" id="nom2" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="firstname" class="col-sm-2 control-label">Prénom</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienPrenom" placeholder="Michael" value="">
+                        <input type="text" class="form-control" name="lienPrenom" id="prenom2" value="">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" name="lienEmail" placeholder="exemple@domain.com" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
+                        <input type="email" class="form-control" name="lienEmail" id="email2" value="<?php //echo htmlspecialchars($_POST['email']); ?>">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Mot de passe</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="lienMotDePasse" placeholder="MotDePasse" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
+                        <input type="text" class="form-control" name="lienMotDePasse" id="mdp2" value="<?php //echo htmlspecialchars($_POST['nom']); ?>">
                     </div>
                 </div>
                 <div class="form-group">
@@ -69,6 +70,9 @@ include('config.php');
         </div>
     </div>
 </div>
+
+
+<script src="dynamicplaceholder.js"></script>
 
 </body>
 </html>

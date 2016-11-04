@@ -24,6 +24,7 @@ else {
     <link rel="shortcut icon" href="http://orig04.deviantart.net/74de/f/2012/155/d/1/4chan_logo_hq_by_michaudotcom-d529rdh.png" type="image/x-icon" />
     <!-- JS : TRIER LES VIDEOS -->
     <script type="text/javascript" src="assets/js/tri_page_videos.js"></script>
+    <script src="assets/js/placeholderTypewriter.js"></script>
 </head>
 
 <body>
@@ -37,13 +38,13 @@ else {
             <div class="form-group">
                 <label class="col-sm-2 control-label">URL</label>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" name="lienUrl" placeholder="http://exemple.webm" value="">
+                    <input type="text" class="form-control" name="lienUrl" id="url1" value="">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-sm-2 control-label">TITRE</label>
                 <div class="col-md-4">
-                    <input type="text" class="form-control" name="lienTitre" placeholder="Entrez le titre de la video" value="">
+                    <input type="text" class="form-control" name="lienTitre" id="titre1" value="">
                 </div>
             </div>
 
@@ -55,7 +56,7 @@ else {
             <div class="form-group">
                 <label class="col-sm-2 control-label">DESCRIPTION</label>
                 <div class="col-sm-6">
-                    <textarea class="form-control" rows="4" name="description" placeholder="Description de la video"></textarea>
+                    <textarea class="form-control" rows="4" name="description" id="description1" ></textarea>
                 </div>
             </div>
             <br>
@@ -92,5 +93,7 @@ else {
 <br>
 <br>
 <?php include('listVideos.php'); ?>
+<script src="dynamicplaceholder.js"></script>
+
 </body>
 </html>

@@ -17,7 +17,7 @@
                 <div id="navbarCollapse2" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="formuAjoutRole.php">Formu ajout Role</a></li>
-                        <li><a href="formuAjoutAdmin.php">Formu ajout Admin</a></li>
+                        <li><a href="formuAjoutAdmin.php">Formu ajout Users</a></li>
                         <li><a href="formuAjoutCategorie.php">Formu ajout Categorie</a></li>
                         <li><a href="formuAjoutVideo.php">Formu ajout Videos</a></li>
                     </ul>
